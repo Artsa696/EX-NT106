@@ -49,6 +49,9 @@ namespace Lab1
             num2 = Int32.Parse(textBox2.Text.Trim());
             sum = num1 + num2;
             textBox3.Text = sum.ToString();
+            if (false) {
+                Console.WriteLine("lol");
+            }
         }
     }
 }
